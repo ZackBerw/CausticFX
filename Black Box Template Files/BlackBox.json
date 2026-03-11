@@ -1,0 +1,133 @@
+{
+	"name": "blackbox",
+	"som": "seed",
+	"defines": {
+		"OOPSY_TARGET_HAS_MIDI_INPUT": 1
+	},
+	"audio": {
+    "channels": 2
+  },
+  "components": {
+      "sw1": {  
+          "component": "Switch",
+          "pin": 14,
+          "pull": "daisy::Switch::PULL_UP"
+      },
+      "sw2": {
+          "component": "Switch",
+          "pin": 13,
+          "pull": "daisy::Switch::PULL_UP"
+      },
+      "sw3": {  
+          "component": "Switch",
+          "pin": 7,
+          "pull": "daisy::Switch::PULL_UP"
+      },
+      "sw4": {
+          "component": "Switch",
+          "pin": 10,
+          "pull": "daisy::Switch::PULL_UP"
+      },
+      "sw5": {   
+          "component": "Switch",
+          "pin": 2,
+          "pull": "daisy::Switch::PULL_UP"
+      },
+      "sw6": {
+          "component": "Switch",
+          "pin": 4,
+          "pull": "daisy::Switch::PULL_UP"
+      },
+      "sw7": {
+          "component": "Switch",
+          "pin": 25,
+          "pull": "daisy::Switch::PULL_UP"
+      },
+      "sw8": {
+          "component": "Switch",
+          "pin": 26,
+          "pull": "daisy::Switch::PULL_UP"
+      },
+      "dip1": {
+          "component": "Switch",
+          "pin": 1,
+          "pull": "daisy::Switch::PULL_UP"
+      },
+      "dip2": {
+          "component": "Switch",
+          "pin": 3,
+          "pull": "daisy::Switch::PULL_UP"
+      },
+      "dip3": {
+          "component": "Switch",
+          "pin": 5,
+          "pull": "daisy::Switch::PULL_UP"
+      },
+      "dip4": {
+          "component": "Switch",
+          "pin": 6,
+          "pull": "daisy::Switch::PULL_UP"
+      },
+      "knob1": {
+        "component": "AnalogControl",
+        "pin": 16
+      },
+      "knob2": {
+        "component": "AnalogControl",
+        "pin": 17
+      },
+      "knob3": {
+        "component": "AnalogControl",
+        "pin": 18
+      },
+      "knob4": {
+        "component": "AnalogControl",
+        "pin": 19
+      },
+      "knob5": {
+        "component": "AnalogControl",
+        "pin": 20
+      },
+      "knob6": {
+        "component": "AnalogControl",
+        "pin": 21
+      },
+      "exp": {
+        "component": "AnalogControl",
+        "pin": 15
+      },
+      "led1": {
+        "component": "Led",
+        "pin": 22
+      },
+      "led2": {
+        "component": "Led",
+        "pin": 23
+      }
+  },
+  "aliases": {
+    "sw1_Left": "sw1",
+    "sw1_Right": "sw2",
+    "sw2_Left": "sw3",
+    "sw2_Right": "sw4",
+    "sw3_Left": "sw5",
+    "sw3_Right": "sw6",
+    "footswitch1": "sw7",
+    "footswitch2": "sw8",
+    "dip1": "dip1",
+    "dip2": "dip2",
+    "dip3": "dip3",
+    "dip4": "dip4",
+    "knob": "knob1",
+    "ctrl": "knob1",
+    "ctrl1": "knob1",
+    "ctrl2": "knob2",
+    "ctrl3": "knob3",
+    "ctrl4": "knob4",
+    "ctrl5": "knob5",
+    "ctrl6": "knob6",
+    "ctrl7": "exp",
+    "led_a": "led1",
+    "led_b": "led2"
+  }
+}
