@@ -23,6 +23,9 @@ ________________________________________________________________________________
 
 # Making my own Gen~ firmware
 
+Instructional video:
+https://www.youtube.com/watch?v=TZIBKDOQi2U
+
 Here you can find the Max Msp Gen~ patch and json file that allows for you to get up and running with mapping your own patches to the Black Box hardware.
 
 It’s also required to install the Oopsy Max package in the Max packages folder.
@@ -42,6 +45,9 @@ After you've made the change, save the H file and then you should be good to go!
 _______________________________________________________________________________________________________________________________________________________________________________________________________
 
 # Swapping Firmware
+
+Instructional video:
+https://www.youtube.com/watch?v=daSA3gCUptA
 
 Swapping firmware on the Black Box is easy!
 https://flash.daisy.audio/
